@@ -5,7 +5,7 @@
         <slider>
           <div v-for="(item,index) in recommends" :key="index">
             <a :href="item.linkUrl">
-              <img :src="item.picUrl"/>>
+              <img :src="item.picUrl"/>
             </a>
           </div>
         </slider>

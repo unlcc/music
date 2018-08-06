@@ -2,6 +2,8 @@ import jsonp from 'common/js/jsonp';
 import {commonParams, options} from './config';
 import axios from 'axios';
 
+// jsonp
+// 拼接请求参数，return jsonp
 export function getRecommend() {
   const url = 'https://c.y.qq.com/musichall/fcgi-bin/fcg_yqqhomepagerecommend.fcg';
 
@@ -14,6 +16,7 @@ export function getRecommend() {
   return jsonp(url, data, options);
 }
 
+// 后台代理
 export function getDiscList() {
   const url = '/api/getDiscList';
 

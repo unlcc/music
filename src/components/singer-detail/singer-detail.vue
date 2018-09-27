@@ -1,6 +1,8 @@
 <template>
-  <div class="singer-detail">
-  </div>
+  <transition name="slide">
+    <div class="singer-detail">
+    </div>
+  </transition>
 </template>
 
 <script type="text/ecmascript-6">
@@ -21,9 +23,9 @@ export default {}
         background: $color-background;
     }
     .slide-enter-active, .slide-leave-active{
-        transition: all 0.3s
+        transition: all 0.2s
     }
     .slide-enter, .slide-leave-to{
-        transform: translate3d(100%, 0, 0)
+        transform: translate3d(0, 100%, 0)
     }
 </style>

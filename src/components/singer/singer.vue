@@ -80,9 +80,8 @@ export default {
       return hot.concat(ret);
     },
     selectSinger(singer) {
-      console.log(singer)
       this.$router.push({
-        path: `/singer${singer.id}`
+        path: `/singer/${singer.id}`
       })
     }
   }

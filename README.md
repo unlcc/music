@@ -1,6 +1,6 @@
 # vue-music
 
-> lcc
+> lccc
 
 ## Build Setup
 
